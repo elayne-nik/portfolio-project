@@ -12,11 +12,16 @@ p {
 h1 {
   font-weight: 700;
   font-size: 96px;
+  color: var(--branding-color);
+}
+h2 {
+  font-size: 64px;
 }
 
-h1,
 p {
-  color: var(--branding-color);
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero {
   background-color: #e2e6e8;
@@ -24,6 +29,7 @@ p {
   padding: 160px 20px;
 }
 .hero p {
+  color: var(--branding-color);
   font-size: 36px;
   font-weight: 400;
   margin: 0;
@@ -44,4 +50,12 @@ p {
 .btn-branding:hover {
   background: var(--secondary-color);
   color: azure;
+}
+.btn-branding-outline {
+  border-radius: 7px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 22px;
 }
