@@ -40,7 +40,9 @@ p {
   line-height: 2;
   color: var(--secondary-color);
 }
-
+.second-section {
+margin-left: 100px;
+}
 .btn-branding {
   background: #f7aa00;
   border-radius: 7px;
