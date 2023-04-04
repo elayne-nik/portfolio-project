@@ -41,7 +41,7 @@ p {
   color: var(--secondary-color);
 }
 .second-section {
-margin-left: 100px;
+  margin-left: 100px;
 }
 .btn-branding {
   background: #f7aa00;
@@ -64,7 +64,6 @@ margin-left: 100px;
   padding: 15px 22px;
 }
 
-
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -73,11 +72,10 @@ margin-left: 100px;
   h2 {
     font-size: 42px;
   }
-  }
-.hero {
-    padding: 80px 20px;
 }
-  .project-description {
-    text-align: center;
-  }
+.hero {
+  padding: 80px 20px;
+}
+.project-description {
+  text-align: center;
 }
