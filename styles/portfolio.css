@@ -18,7 +18,20 @@ h1 {
 h2 {
   font-size: 64px;
 }
-
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.about-section-content {
+  margin: 30px;
+}
 p {
   color: var(--secondary-color);
   font-size: 16px;
@@ -78,4 +91,8 @@ p {
 }
 .project-description {
   text-align: center;
+}
+.about-section {
+  text-align: center;
+  padding: 0;
 }
