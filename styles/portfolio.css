@@ -29,8 +29,11 @@ h2 {
   font-size: 24px;
   font-weight: bold;
 }
-.about-section-content {
+.about-section-content1 {
   margin: 30px;
+}
+.about-section-content2 img {
+  border-radius: 15px;
 }
 p {
   color: var(--secondary-color);
