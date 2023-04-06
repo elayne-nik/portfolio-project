@@ -18,27 +18,29 @@ h1 {
 h2 {
   font-size: 64px;
 }
-.content {
-  padding: 160px 20px;
+nav {
+  padding: 20px 0;
 }
-.content-container h1 {
-  font-size: 64px;
-  line-height: 80px;
+nav ul {
+  margin: 0;
+  padding: 0;
 }
-.content-container h2 {
-  font-size: 24px;
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin: 15px;
+}
+
+nav a {
+  color: var(--branding-color);
   font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
 }
-.content h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 20px 0;
-}
-.content1 {
-  margin: 30px;
-}
-.content2 img {
-  border-radius: 15px;
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
 }
 p {
   color: var(--secondary-color);
@@ -83,6 +85,34 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 22px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--branding-color);
+}
+
+.content {
+  padding: 160px 20px;
+}
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+.content h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.content1 {
+  margin: 30px;
+}
+.content2 img {
+  border-radius: 15px;
 }
 
 @media (max-width: 900px) {
