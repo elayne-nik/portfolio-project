@@ -123,14 +123,18 @@ p {
   h2 {
     font-size: 42px;
   }
-}
-.hero {
-  padding: 80px 20px;
-}
-.project-description {
-  text-align: center;
-}
-.content-container {
-  text-align: center;
-  padding: 0;
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    text-align: center;
+  }
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+  nav a {
+    font-size: 10px;
+    text-align: center;
+  }
 }
