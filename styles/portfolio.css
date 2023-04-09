@@ -18,6 +18,11 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 48px;
+  color: var(--branding-color);
+}
+
 nav {
   padding: 20px 0;
 }
@@ -114,7 +119,39 @@ p {
 .content2 img {
   border-radius: 15px;
 }
-
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: #e2e6e8;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+  text-align: center;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: #e2e6e8;
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -123,6 +160,10 @@ p {
   h2 {
     font-size: 42px;
   }
+  h4 {
+    font-size: 26px;
+  }
+
   .hero {
     padding: 80px 20px;
   }
