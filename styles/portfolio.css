@@ -18,7 +18,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4 {
+h3 {
   font-size: 48px;
   color: var(--branding-color);
 }
@@ -55,7 +55,7 @@ p {
 .hero {
   background-color: #e2e6e8;
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .hero p {
   color: var(--branding-color);
@@ -98,7 +98,7 @@ p {
 }
 
 .content {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content-container h1 {
   font-size: 64px;
@@ -111,6 +111,7 @@ p {
 .content h3 {
   font-size: 24px;
   font-weight: bold;
+  color: var(--secondary-color);
   margin: 20px 0;
 }
 .content1 {
